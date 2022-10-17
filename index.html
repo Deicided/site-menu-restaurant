@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+</head>
+<body>
+    <label> Nome: <input type="text" name="nome" id="">   </label>
+    <p>
+        <fieldset>
+            <legend>Escolha de prato</legend>
+            <p>
+                <label>
+                 <input type="radio" name="main" value="001" checked>
+                    Pizza portuguesa
+                 </label>
+            </p>
+        
+            <p>
+                <label>
+                 <input type="radio" name="main" value="002" >
+                    Pizza Calabreça
+                 </label>
+            </p>
+
+            <p>
+                <label>
+                 <input type="radio" name="main" value="003" >
+                    Pizza 4 queijos
+                 </label>
+            </p>
+        </fieldset>
+        <fieldset>
+                       <legend>acompanhamentos</legend>        
+            <label>
+            <input type="checkbox" name="side" value="004" checked>
+                         Salame
+            </label>
+            <label>
+                <input type="checkbox" name="side" value="005" checked>
+                         pimentao
+                </label>
+                <label>
+                    <input type="checkbox" name="side" value="006" checked>
+                         milho 
+                    </label>
+        </fieldset>
+        <fieldset>
+            <legend>Bebidas</legend>
+            <p>
+        <label ><input type="radio" name="drink" value="010" checked >refrigerante </label>
+        </p>
+        <label ><input type="radio" name="drink" value="011" >Coca-cola </label>
+        <p>
+        </p>
+        <label ><input type="radio" name="drink" value="012" >Coca-cola </label>
+        <p>
+        </p>
+        </fieldset>
+    </p> 
+
+            <label>
+            Observaçoes
+            <textarea name="notas" id="" cols="30" rows="10"></textarea>    
+            </label>
+    <p>
+<label> 
+    Forma de pagamento
+    <select name="payment" id="">
+        <option value="cash"> Dinheiro</option>
+        <option value="credit"> Cartao de credito</option>
+        <option value="debit"> Debito</option>
+    </select>
+</label>
+<p>
+<button type="reset">Recomeçar pedido</button>
+<button type="submit">Fazer pedido </button>
+</p>
+    </p>        
+
+
+
+    
+
+</body>
+</html>
